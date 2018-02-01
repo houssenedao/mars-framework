@@ -4,4 +4,5 @@
 composer.lock
 .vscoe
 .DS_Store
-/public/
+/public
+/public/*
