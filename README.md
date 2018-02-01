@@ -1,2 +1,2 @@
-# Mars Core Framework
+# Mars PHP Framework
 Mars Core Framework
