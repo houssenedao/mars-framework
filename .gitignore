@@ -1,0 +1,6 @@
+.idea
+/vendor/
+composer.lock
+.vscoe
+.DS_Store
+/composer.lock
