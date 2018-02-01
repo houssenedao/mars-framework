@@ -32,6 +32,7 @@
         "martians/console": "self.version",
         "martians/filesystem": "self.version",
         "martians/helpers": "self.version",
+        "martians/log": "self.version",
         "martians/mailer": "self.version",
         "martians/routing": "self.version",
         "martians/session": "self.version",
