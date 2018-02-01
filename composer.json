@@ -56,11 +56,6 @@
             "Mars\\Tests\\": "tests/"
         }
     },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "master-dev"
-        }
-    },
     "config": {
         "sort-packages": true
     },
