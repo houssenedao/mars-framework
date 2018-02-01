@@ -1,6 +1,6 @@
 {
-    "name": "martians/session",
-    "description": "The Martians Session package.",
+    "name": "martians/support",
+    "description": "The Martians Support package.",
     "license": "MIT",
     "support": {
         "issues": "https://github.com/marsphp/framework/issues",
@@ -21,7 +21,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Martians\\Session\\": ""
+            "Martians\\Support\\": ""
         }
     },
     "extra": {
