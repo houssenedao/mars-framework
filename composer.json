@@ -23,6 +23,11 @@
             "Mars\\Tests\\": "tests/"
         }
     },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1-dev"
+        }
+    },
     "config": {
         "sort-packages": true
     },
