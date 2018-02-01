@@ -1,5 +1,5 @@
 {
-    "name": "mars/mars",
+    "name": "mars/framework",
     "description": "Mars Framework",
     "license": "MIT",
     "support": {
@@ -23,7 +23,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Mars\\": "src/Mars/"
+            "Martians\\": "src/Martians/"
         }
     },
     "autoload-dev": {
