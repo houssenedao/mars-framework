@@ -19,7 +19,19 @@
     "require": {
         "php": ">=7.0",
         "ext-mbstring": "*",
-        "ext-openssl": "*"
+        "ext-openssl": "*",
+        "swiftmailer/swiftmailer": "~6.0",
+        "league/flysystem": "~1.0",
+        "nesbot/carbon": "~1.20"
+    },
+    "replace": {
+        "martians/console": "self.version",
+        "martians/filesystem": "self.version",
+        "martians/helpers": "self.version",
+        "martians/mailer": "self.version",
+        "martians/routing": "self.version",
+        "martians/session": "self.version",
+        "martians/support": "self.version"
     },
     "autoload": {
         "psr-4": {

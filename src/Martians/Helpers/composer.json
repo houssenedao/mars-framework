@@ -1,0 +1,36 @@
+{
+    "name": "martians/helpers",
+    "description": "The Martians Helpers package.",
+    "license": "MIT",
+    "support": {
+      "issues": "https://github.com/TheMartianGeeks/mars/issues",
+      "source": "https://github.com/TheMartianGeeks/mars"
+    },
+    "authors": [
+      {
+        "name": "Houssene Dao",
+        "email": "dao.houssene@gmail.com"
+      },
+      {
+        "name": "Hassane Dao",
+        "email": "dao.hassane@gmail.com"
+      }
+    ],
+    "require": {
+      "php": ">=7.0"
+    },
+    "autoload": {
+      "psr-4": {
+        "Martians\\Helpers\\": ""
+      }
+    },
+    "extra": {
+      "branch-alias": {
+        "dev-master": "0.1-dev"
+      }
+    },
+    "config": {
+      "sort-packages": true
+    },
+    "minimum-stability": "dev"
+}
