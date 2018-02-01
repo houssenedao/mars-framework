@@ -3,8 +3,8 @@
     "description": "Mars Framework",
     "license": "MIT",
     "support": {
-        "issues": "https://github.com/marsphp/mars/issues",
-        "source": "https://github.com/marsphp/mars"
+        "issues": "https://github.com/marsphp/framework/issues",
+        "source": "https://github.com/marsphp/framework"
     },
     "authors": [
         {
