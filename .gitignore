@@ -2,3 +2,4 @@
 /vendor/
 .vscoe
 .DS_Store
+/composer.lock
