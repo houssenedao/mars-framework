@@ -1,0 +1,26 @@
+{
+    "name": "mars/mars",
+    "description": "Mars Framework",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Houssene Dao",
+            "email": "dao.houssene@gmail.com"
+        },
+        {
+            "name": "Hassane Dao",
+            "email": "dao.hassane@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Mars\\": "src/Mars/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Mars\\Tests\\": "tests/"
+        }
+    }
+}
