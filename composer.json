@@ -1,7 +1,11 @@
 {
-    "name": "mars/mars",
+    "name": "mars/framework",
     "description": "Mars Framework",
     "license": "MIT",
+    "support": {
+        "issues": "https://github.com/TheMartianGeeks/mars/issues",
+        "source": "https://github.com/TheMartianGeeks/mars"
+    },
     "authors": [
         {
             "name": "Houssene Dao",
@@ -13,17 +17,44 @@
         }
     ],
     "require": {
+        "php": ">=7.0",
+        "ext-mbstring": "*",
+        "ext-openssl": "*",
+        "swiftmailer/swiftmailer": "~6.0",
+        "league/flysystem": "~1.0",
+        "nesbot/carbon": "~1.20",
+        "psr/container": "~1.0",
+        "psr/simple-cache": "^1.0"
         "symfony/yaml": "^4.0",
         "symfony/console": "^4.0"
     },
+    "replace": {
+        "martians/console": "self.version",
+        "martians/filesystem": "self.version",
+        "martians/helpers": "self.version",
+        "martians/mailer": "self.version",
+        "martians/routing": "self.version",
+        "martians/session": "self.version",
+        "martians/view": "self.version"
+    },
     "autoload": {
         "psr-4": {
-            "Mars\\": "src/Mars/"
+            "Martians\\": "src/Martians/"
         }
     },
     "autoload-dev": {
         "psr-4": {
             "Mars\\Tests\\": "tests/"
         }
-    }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1-dev"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
