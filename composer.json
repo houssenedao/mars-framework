@@ -2,6 +2,10 @@
     "name": "mars/mars",
     "description": "Mars Framework",
     "license": "MIT",
+    "support": {
+        "issues": "https://github.com/TheMartianGeeks/mars/issues",
+        "source": "https://github.com/TheMartianGeeks/mars"
+    },
     "authors": [
         {
             "name": "Houssene Dao",
@@ -12,7 +16,11 @@
             "email": "dao.hassane@gmail.com"
         }
     ],
-    "require": {},
+    "require": {
+        "php": ">=7.0",
+        "ext-mbstring": "*",
+        "ext-openssl": "*"
+    },
     "autoload": {
         "psr-4": {
             "Mars\\": "src/Mars/"
@@ -21,6 +29,11 @@
     "autoload-dev": {
         "psr-4": {
             "Mars\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1-dev"
         }
     },
     "config": {
