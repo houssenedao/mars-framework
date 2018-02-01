@@ -26,12 +26,21 @@
         "psr/container": "~1.0",
         "psr/simple-cache": "^1.0",
         "symfony/yaml": "^4.0",
-        "symfony/console": "^4.0"
+        "symfony/console": "^4.0",
+        "symfony/debug": "~3.3",
+        "symfony/finder": "~3.3",
+        "symfony/http-foundation": "~3.3",
+        "symfony/http-kernel": "~3.3",
+        "symfony/process": "~3.3",
+        "symfony/routing": "~3.3",
+        "symfony/var-dumper": "~3.3",
+        "tijsverkoyen/css-to-inline-styles": "~2.2"
     },
     "replace": {
         "martians/console": "self.version",
         "martians/filesystem": "self.version",
         "martians/helpers": "self.version",
+        "martians/log": "self.version",
         "martians/mailer": "self.version",
         "martians/routing": "self.version",
         "martians/session": "self.version",
@@ -49,7 +58,7 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "0.1-dev"
+            "dev-master": "dev"
         }
     },
     "config": {
