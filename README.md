@@ -1,2 +1,2 @@
-# mars
+# Mars Core Framework
 Mars Core Framework
